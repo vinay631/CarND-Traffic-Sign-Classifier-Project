@@ -1,8 +1,8 @@
-#Traffic Sign Recognition
+# Traffic Sign Recognition
 
 ---
 
-##Build a Traffic Sign Recognition Project
+## Build a Traffic Sign Recognition Project
 
 The goals / steps of this project are the following:
 * Load the data set (see below for links to the project data set)
@@ -15,8 +15,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1a]: ./sign_vis "Dispaly some random signs"
-[image1b]: ./dist_vis "Distribution of sample size across sign types"
+[image1a]: ./sign_vis.jpg "Dispaly some random signs"
+[image1b]: ./dist_vis.jpg "Distribution of sample size across sign types"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./my_signs/caution.jpg "Traffic Sign 1"

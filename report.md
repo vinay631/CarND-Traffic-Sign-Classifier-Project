@@ -108,12 +108,21 @@ My final model results were:
 
 If a well known architecture was chosen:
 * What architecture was chosen?
-  I chose LeNet architecture first and it seemed to give a good result. I will be implementing other architectures too to compare them with the LeNet architecture.
+  I chose LeNet-5 architecture first and it seemed to give a good result. I will be implementing other architectures too to compare them with the LeNet architecture.
 * Why did you believe it would be relevant to the traffic sign application?
 The original LeNet architecture performs well on MNIST data which has a lot of similarity with traffic sign data.
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
 The validation accuracy is slightly higher than
  
+If an iterative approach was chosen:
+* What was the first architecture that was tried and why was it chosen?
+I chose LeNet5 architecture as I was most familiar with it from the previous lessons and exercises.
+* What were some problems with the initial architecture?
+For me the intial challenge was coming up with the initial parameters.
+* How was the architecture adjusted and why was it adjusted?
+I added dropouts but that didn't seem to work. From the lessons I learnt that dropouts method help generalize the network well, but due to lack of suffcient time, I didn't explore more dropout probabilities.
+* Which parameters were tuned? How were they adjusted and why?
+Epoch, batch size, learning rate and dropout probabilities were adjusted. The parameters were tuned mostly by trial and error method. I had a high learning rate to start with which didn't help the model accuracy with lower value of epoch. So I increased the number of epochs and lowered the learning rate to 0.0001 which seem to have helped the model surpass the 93% accuracy on test dataset.
 
 ### Test a Model on New Images
 

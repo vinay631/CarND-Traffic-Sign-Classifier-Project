@@ -123,6 +123,8 @@ For me the intial challenge was coming up with the initial parameters.
 I added dropouts but that didn't seem to work. From the lessons I learnt that dropouts method help generalize the network well, but due to lack of suffcient time, I didn't explore more dropout probabilities.
 * Which parameters were tuned? How were they adjusted and why?
 Epoch, batch size, learning rate and dropout probabilities were adjusted. The parameters were tuned mostly by trial and error method. I had a high learning rate to start with which didn't help the model accuracy with lower value of epoch. So I increased the number of epochs and lowered the learning rate to 0.0001 which seem to have helped the model surpass the 93% accuracy on test dataset.
+* What are some of the important design choices and why were they chosen?
+I was not able to explore things like inception and other models due to lack of time. Only thing I explored (cursorily) was adding dropoout which didn't improve my model. I will work on using different models and architecture in coming days.
 
 ### Test a Model on New Images
 
